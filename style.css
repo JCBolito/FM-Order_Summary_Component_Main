@@ -144,11 +144,11 @@ footer a {
 
 @media screen and (max-width: 375px) {
 	body {
-		background-image: none;
+		background-image: url(images/pattern-background-mobile.svg);
 	}
 }
 
-@media screen and (max-width: 290px) {
+@media screen and (max-width: 340px) {
 	main .details {
 		padding: 20px 10px;
 	}
