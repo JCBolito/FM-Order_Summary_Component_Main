@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap');
+
+:root {
+	font-size: 16px;
+}
+
+* {
+	padding: 0;
+	margin: 0;
+	font-family: 'Red Hat Display', Arial, Helvetica, sans-serif;
+}
+
+body {
+	font-weight: 500;
+	font-size: 0.9rem;
+	color: hsl(223, 47%, 23%);
+	height: 100vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	background-color: hsl(225, 100%, 94%);
+	background-size: contain;
+	background-image: url(./images/pattern-background-desktop.svg);
+	background-repeat: no-repeat;
+}
+
+main {
+	background-color: hsl(225, 100%, 98%);
+	overflow: hidden;
+	border-radius: 15px;
+}
+
+
+
+main,
+main .mainImage {
+	min-width: 265px;
+	width: 95vw;
+	max-width: 375px;
+}
+
+main>.details>* {
+	margin: 20px 0;
+}
+
+main .details {
+	padding: 20px 40px;
+	text-align: center;
+}
+
+main .details>h1 {
+	font-size: 1.3rem;
+	font-weight: 900;
+	margin: 10px 0;
+}
+
+main .details>p {
+	color: hsl(224, 23%, 55%);
+	font-weight: 500;
+	font-size: 0.9rem;
+	line-height: 20px;
+	padding: 0px 5px;
+}
+
+main .details .priceCard .left,
+main .details .priceCard {
+	display: flex;
+	align-items: center;
+	gap: 15px;
+}
+
+main .details .priceCard {
+	flex-wrap: wrap;
+	justify-content: space-between;
+	padding: 15px 15px;
+	gap: 20px;
+	background-color: hsl(222, 74%, 95%);
+	border-radius: 7.5px;
+}
+
+main .details .priceCard .left img {
+	height: 40px;
+}
+
+main .details .priceCard .left .plan p:first-of-type {
+	font-weight: 900;
+	margin-bottom: 5px;
+}
+
+main .details .priceCard .left .plan p:last-of-type {
+	font-weight: 500;
+	color: hsl(224, 23%, 55%);
+}
+
+main .details .priceCard .right {
+	font-weight: 700;
+	color: hsl(245, 75%, 52%);
+}
+
+main .details .buttons {
+	display: flex;
+	flex-direction: column;
+}
+
+main .details .buttons button {
+	padding: 10px;
+	border-radius: 7.5px;
+}
+
+main .details .buttons button:first-of-type {
+	font-weight: 700;
+	background-color: hsl(245, 75%, 52%);
+	box-shadow: 0 15px 10px hsla(245, 75%, 52%, 0.200);
+	color: hsl(225, 100%, 98%);
+	border: none;
+	transition: 0.2s ease-in-out;
+	cursor: pointer;
+}
+
+main .details .buttons button:first-of-type:hover,
+main .details .buttons button:last-of-type:hover {
+	transform: scale(1.02);
+}
+
+main .details .buttons button:last-of-type {
+	color: hsl(224, 23%, 55%);
+	font-weight: 700;
+	background: none;
+	border: none;
+	margin-top: 20px;
+	transition: 0.2s ease-in-out;
+	cursor: pointer;
+}
+
+footer {
+	font-size: 11px;
+	text-align: center;
+}
+
+footer a {
+	color: hsl(228, 45%, 44%);
+}
+
+@media screen and (max-width: 375px) {
+	body {
+		background-image: none;
+	}
+}
+
+@media screen and (max-width: 290px) {
+	main .details {
+		padding: 20px 10px;
+	}
+}
