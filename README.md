@@ -32,8 +32,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [GitHub Repository](https://github.com/JCBolito/order-summary-component-main)
-- Live Site URL: [GitHub Pages](https://jcbolito.github.io/order-summary-component-main/)
+- Solution URL: [GitHub Repository](https://github.com/JCBolito/FM-Order_Summary_Component_Main/)
+- Live Site URL: [GitHub Pages](https://jcbolito.github.io/FM-Order_Summary_Component_Main/)
 
 ## My process
 Breaking down the project into smaller chunks, the following process were taken to guarantee the project's completion:
